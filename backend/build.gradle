@@ -4,7 +4,7 @@ apply plugin: 'kotlinx-serialization'
 apply plugin: 'application'
 apply plugin: 'com.github.johnrengelman.shadow'
 
-mainClassName = 'org.jetbrains.kotlinconf.backend.ServerKt'
+mainClassName = 'com.noorifytech.multiplatform.backend.ServerKt'
 
 sourceCompatibility = 1.8
 
