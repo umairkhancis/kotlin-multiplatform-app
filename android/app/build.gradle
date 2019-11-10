@@ -24,20 +24,6 @@ android {
         abortOnError false
     }
 
-    flavorDimensions "server"
-    productFlavors {
-        local {
-            buildConfigField("String", "API_URL", "\"https://api.kotlinconf.com\"")
-            buildConfigField("String", "MAPBOX_ACCESS_TOKEN", "\"MAPBOX_ACCESS_TOKEN\"")
-            dimension "server"
-        }
-        prod {
-            buildConfigField("String", "API_URL", "\"https://api.kotlinconf.com\"")
-            buildConfigField("String", "MAPBOX_ACCESS_TOKEN", "\"MAPBOX_ACCESS_TOKEN\"")
-            dimension "server"
-        }
-    }
-
     packagingOptions {
         exclude 'META-INF/common.kotlin_module'
         exclude 'META-INF/*.kotlin_module'
