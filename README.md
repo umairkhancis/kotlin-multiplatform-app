@@ -1,8 +1,5 @@
-[![JetBrains incubator project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) 
-
 # kotlin-multiplatform-app
-
-An example architecture for code sharing between Android & iOS.
+An example architecture for code sharing between Android & iOS using kotlin multiplatform.
 
 # iOS
 Implements view interface in swift.
