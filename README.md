@@ -6,3 +6,6 @@ Implements view interface in swift.
 
 # Android
 Implements view interface in kotlin
+
+References:
+https://www.youtube.com/watch?v=UyTBXEZ983g&t=1982s
