@@ -5,4 +5,4 @@ An example architecture for code sharing between Android & iOS using kotlin mult
 Implements view interface in swift.
 
 # Android
-Implements view interface in kotlin.
+Implements view interface in kotlin
